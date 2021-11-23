@@ -10,8 +10,8 @@ namespace RemindeMeBFF
         public const string medicaments = @"[
     {
       'id': 1,
-      'name': 'Dipirona Monoidratada',
-      'about': '550MG',
+      'name': 'Dipirona',
+      'about': 'Dipirona monoidratada comprimido 550MG',
       'tips': 'Este medicamento é indicado como analgésico (para dor) e antitérmico (para febre)',
       'photo': 'https://images.vexels.com/media/users/3/144240/isolated/lists/ce9102820c3ec30860f5e0519c5c2c64-pills-icon-remedy.png',
       'medicament_type': ['analgesic'],
@@ -34,8 +34,8 @@ namespace RemindeMeBFF
     },
     {
       'id': 3,
-      'name': 'Suplemento Vitamínico Cálcio com Vitamina D',
-      'about': '500mg + 400 UI',
+      'name': 'Cálcio + Vitamina D',
+      'about': 'Cálcio 500mg + Vitamida D 400 UI',
       'tips': 'Pessoas com os seguintes problemas de saúde devem utilizar o produto sob supervisão médica: hipercalciúria leve, insuficiência renal crônica, ou quando existe propensão à formação de cálculos renais',
       'photo': 'https://images.vexels.com/media/users/3/144240/isolated/lists/ce9102820c3ec30860f5e0519c5c2c64-pills-icon-remedy.png',
       'medicament_type': ['supplement'],
@@ -47,7 +47,7 @@ namespace RemindeMeBFF
     {
       'id': 4,
       'name': 'Nimesulida',
-      'about': '100MG',
+      'about': 'Nimesulida comprimido 100MG',
       'tips': 'Este medicamento é destinado ao tratamento de uma variedade de condições que requeiram atividade anti-inflamatória, analgésica e antipirética.',
       'photo': 'https://images.vexels.com/media/users/3/144240/isolated/lists/ce9102820c3ec30860f5e0519c5c2c64-pills-icon-remedy.png',
       'medicament_type': ['antiinflammatory'],
@@ -59,8 +59,8 @@ namespace RemindeMeBFF
     {
       'id': 5,
       'name': 'Gerovital',
-      'about': 'O aroma reduz os níveis de ansiedade e seu cheiro ajudar na qualidade do sono e a produtividade durante o dia.',
-      'tips': ' indicado no tratamento de diminuição do rendimento físico e mental, estados de fadiga e esgotamento, distúrbios de memória, diminuição da capacidade de concentração e envelhecimento precoce.',
+      'about': 'Complexo Vitamínico em cápsulas',
+      'tips': ' Indicado no tratamento de diminuição do rendimento físico e mental, estados de fadiga e esgotamento, distúrbios de memória, diminuição da capacidade de concentração e envelhecimento precoce.',
       'photo': 'https://images.vexels.com/media/users/3/144240/isolated/lists/ce9102820c3ec30860f5e0519c5c2c64-pills-icon-remedy.png',
       'medicament_type': ['supplement'],
       'frequency': {
@@ -71,7 +71,7 @@ namespace RemindeMeBFF
     {
       'id': 6,
       'name': 'Ômega 3',
-      'about': '1000mg',
+      'about': 'Cápsulas 1000mg',
       'tips': 'Auxilia na manutenção de níveis saudáveis de triglicerídeos, melhora a capacidade de concentração, a memória, o sistema imunológico e a pele, além de combater o stress.',
       'photo': 'https://images.vexels.com/media/users/3/144240/isolated/lists/ce9102820c3ec30860f5e0519c5c2c64-pills-icon-remedy.png',
       'medicament_type': ['supplement'],
@@ -95,7 +95,7 @@ namespace RemindeMeBFF
     {
       'id': 8,
       'name': 'Novalgina',
-      'about': 'Dipirona Monoidratada',
+      'about': 'Dipirona Monoidratada em comprimidos 500mg',
       'tips': 'Indicado em adultos para a redução da febre e para o alívio temporário de dores leves a moderadas.',
       'photo': 'https://images.vexels.com/media/users/3/144240/isolated/lists/ce9102820c3ec30860f5e0519c5c2c64-pills-icon-remedy.png',
       'medicament_type': ['analgesic'],
@@ -118,7 +118,7 @@ namespace RemindeMeBFF
     },
     {
       'id': 10,
-      'name': 'Vitamina D3 Althaia',
+      'name': 'Vitamina D3',
       'about': '2000UI',
       'tips': 'Previne e auxilia o tratamento e prevenção da desmineralização óssea, raquitismo, e osteomalácia.',
       'photo': 'https://images.vexels.com/media/users/3/144240/isolated/lists/ce9102820c3ec30860f5e0519c5c2c64-pills-icon-remedy.png',
